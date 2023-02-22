@@ -1,7 +1,7 @@
 # ESP32ShiftPWM
 A library for using shift registers (typically 74HC595s) with individually-controlled PWM (via bit-bang) for the ESP32. 
 
-Refer to [this blog post](https://) for more in-depth explanation on how to use this library.
+Refer to [this blog post](https://urbanmakerkraft.com/2023/02/22/esp32-shiftpwm/) for more in-depth explanation on how to use this library.
 Special thanks to [Timo Denk](https://github.com/Simsso/ShiftRegister-PWM-Library) for his code and [excellent writeup](https://timodenk.com/blog/shiftregister-pwm-library/), which I heavily drew inspiration from. 
 
 ### Basic Usage
