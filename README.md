@@ -11,6 +11,9 @@ Where:
 - sck_pin => Any pin between GPIO0-GPIO31. Connects to the SRCLK pin of the 74HC595
 - latch_pin => Any pin between GPIO0-GPIO31. Connects to the RCLK pin of the 74HC595
 
+### **Note**: 
+When specifying the pin, use BITXX format (where XX is the GPIO number). 
+
 Refer to[Last Minute Engineer's awesome guide](https://lastminuteengineers.com/74hc595-shift-register-arduino-tutorial/) for detailed pinout instructions. 
 
 - registerCount => Number of daisy chained registers. I have not tested the maximum but you are limited by the overall size of the command array (size of command array = number of registers * 8 * PWM resolution). Exorbitant sizes of the array will lead to sluggish performance or even crashing of the ESP32. Play around with the resolution and the FREQUENCY to find what works for you. 
